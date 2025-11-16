@@ -1,0 +1,11 @@
+A queue is the ideal data structure for this task since it operates on the FIFO (First In, First Out) principle — the earliest order placed gets processed first.
+How it functions:
+
+Enqueue: Append a fresh order (item + quantity) to the rear.
+Dequeue: Remove the order from the front once completed.
+
+Preventing issues:
+
+Overflow: Implement a dynamic queue using a linked list.
+Underflow: Always verify the queue isn’t empty before attempting removal.
+Display orders: Output each order right after dequeuing to reflect the exact sequence of arrival.
